@@ -1,0 +1,354 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine Profile ❤️</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        color: #fff;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 30px;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background: rgba(255, 0, 80, 0.3);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 5px solid white;
+        object-fit: cover;
+    }
+
+    h2 {
+        margin-top: 20px;
+        border-bottom: 2px solid white;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    .section {
+        margin: 25px 0;
+    }
+
+    .social a {
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 15px;
+        border: 2px solid white;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    .social a:hover {
+        background: white;
+        color: #ff4d6d;
+    }
+
+    button {
+        background: white;
+        color: #ff4d6d;
+        border: none;
+        padding: 12px 25px;
+        font-size: 16px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #ff4d6d;
+        color: white;
+    }
+
+    .heart {
+        position: fixed;
+        color: red;
+        animation: float 5s linear infinite;
+    }
+
+    @keyframes float {
+        0% { transform: translateY(100vh) scale(1); opacity: 1; }
+        100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+    }
+</style>
+</head>
+
+<body>
+
+<header>My Valentine Profile ❤️</header>
+
+<div class="container">
+
+    <img src= "2.jpg" alt="Profile Picture">
+
+    <h1>Manish D</h1>
+
+    <div class="section">
+        <h2> 😜Personal Details</h2>
+        <p><strong>Age:</strong> 20</p>
+        <p><strong>Location:</strong> India</p>
+        <p><strong>Status:</strong> Waiting for my Valentine 💘</p>
+    </div>
+
+    <div class="section">
+        <h2>🎓Educational Details</h2>
+        <p> <b>College :</b> BTech in Computer Science and Engineering (IIIT Ranchi)</p>
+        <p>Passionate about Data Structures & Algorithms</p>
+    </div>
+
+    <div class="section">
+        <h2> ♟️Hobbies</h2>
+        <p>💻 Coding</p>
+        <p>📚 Learning New Things</p>
+        <p>🎵 Listening to Music</p>
+        <p>🏆 Solving Competitive Problems</p>
+    </div>
+
+    <div class="section">
+        <h2> 💌Valentine Message</h2>
+        <p id="valentineText">
+            Roses are red 🌹,<br>
+            Violets are blue 💙,<br>
+            Coding is fun 💻,<br>
+            But better with you ❤️
+        </p>
+        <button onclick="changeMessage()">Click for Surprise 💌</button>
+    </div>
+
+    <div class="section social">
+        <h2> 📡Social Profiles</h2>
+        <a href="https://www.linkedin.com/in/manish-d-59563626b/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Manishseervi-86" target="_blank">GitHub</a>
+        <a href="https://x.com/Theautumnleaf86" target="_blank">Twitter X</a>
+    </div>
+
+</div>
+
+<script>
+    function changeMessage() {
+        document.getElementById("valentineText").innerHTML =
+            "You are the algorithm to my heart ❤️<br>" +
+            "Without you, my life has runtime error 😜<br>" +
+            "Will you be my Valentine? 💕";
+    }
+
+    // Floating Hearts Animation
+    function createHeart() {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.innerHTML = "❤️";
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.fontSize = Math.random() * 20 + 20 + "px";
+        heart.style.animationDuration = Math.random() * 3 + 2 + "s";
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 5000);
+    }
+
+    setInterval(createHeart, 300);
+</script>
+
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine Profile ❤️</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        color: #fff;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 30px;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background: rgba(255, 0, 80, 0.3);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    /* ✅ IMAGE CHANGED TO 9:16 RECTANGLE */
+    img {
+        width: 300px;
+        aspect-ratio: 9 / 16;
+        border-radius: 20px;
+        border: 5px solid white;
+        object-fit: cover;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    h2 {
+        margin-top: 20px;
+        border-bottom: 2px solid white;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    .section {
+        margin: 25px 0;
+    }
+
+    .social a {
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 15px;
+        border: 2px solid white;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    .social a:hover {
+        background: white;
+        color: #ff4d6d;
+    }
+
+    button {
+        background: white;
+        color: #ff4d6d;
+        border: none;
+        padding: 12px 25px;
+        font-size: 16px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #ff4d6d;
+        color: white;
+    }
+
+    .heart {
+        position: fixed;
+        color: red;
+        animation: float 5s linear infinite;
+    }
+
+    @keyframes float {
+        0% { transform: translateY(100vh) scale(1); opacity: 1; }
+        100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+    }
+</style>
+</head>
+
+<body>
+
+<header>My Valentine Profile ❤️</header>
+
+<div class="container">
+
+    <img src="2.jpg" alt="Profile Picture">
+
+    <h1>Manish D</h1>
+
+    <div class="section">
+        <h2> 😜Personal Details</h2>
+        <p><strong>Age:</strong> 20</p>
+        <p><strong>Location:</strong> India</p>
+        <p><strong>Status:</strong> Waiting for my Valentine 💘</p>
+    </div>
+
+    <div class="section">
+        <h2>🎓Educational Details</h2>
+        <p><b>College :</b> BTech in Computer Science and Engineering (IIIT Ranchi)</p>
+        <p>Passionate about Data Structures & Algorithms</p>
+    </div>
+
+    <div class="section">
+        <h2> ♟️Hobbies</h2>
+        <p>💻 Coding</p>
+        <p>📚 Learning New Things</p>
+        <p>🎵 Listening to Music</p>
+        <p>🏆 Solving Competitive Problems</p>
+    </div>
+
+    <div class="section">
+        <h2> 💌Valentine Message</h2>
+        <p id="valentineText">
+            Roses are red 🌹,<br>
+            Violets are blue 💙,<br>
+            Coding is fun 💻,<br>
+            But better with you ❤️
+        </p>
+        <button onclick="changeMessage()">Click for Surprise 💌</button>
+    </div>
+
+    <div class="section social">
+        <h2> 📡Social Profiles</h2>
+        <a href="https://www.linkedin.com/in/manish-d-59563626b/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Manishseervi-86" target="_blank">GitHub</a>
+        <a href="https://x.com/Theautumnleaf86" target="_blank">Twitter X</a>
+    </div>
+
+</div>
+
+<script>
+    function changeMessage() {
+        document.getElementById("valentineText").innerHTML =
+            "You are the algorithm to my heart ❤️<br>" +
+            "Without you, my life has runtime error 😜<br>" +
+            "Will you be my Valentine? 💕";
+    }
+
+    function createHeart() {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.innerHTML = "❤️";
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.fontSize = Math.random() * 20 + 20 + "px";
+        heart.style.animationDuration = Math.random() * 3 + 2 + "s";
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 5000);
+    }
+
+    setInterval(createHeart, 300);
+</script>
+
+</body>
+</html>
